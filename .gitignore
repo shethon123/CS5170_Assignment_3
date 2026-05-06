@@ -1,0 +1,10 @@
+# FiNER directories
+finer-139/
+finer139_adapter/
+finer139_adapter_v2/
+
+# Virtual environment
+.venv/
+
+# Data files
+weak_labels.json
