@@ -1,0 +1,179 @@
+OUTPUT for evaluate.py
+============================================================
+🧠 Model Configuration
+============================================================
+Encoder model      : microsoft/deberta-v3-base
+Counting layer     : count_lstm_v2
+Token pooling      : first
+============================================================
+
+Scoring base model...
+
+  Text: The effective tax rate was 47.6 percent and 13.4 percent for the three months en
+    [EffectiveIncomeTaxRateContinuingOperations]
+      Gold: ['47.6', '13.4']
+      Pred: []
+
+  Text: We operate through two business segments : our Structured Loan Origination and I
+    [NumberOfOperatingSegments]
+      Gold: ['two']
+      Pred: []
+  Done. Skipped 16 long sequences.        
+
+Scoring fine-tuned model...
+
+  Text: The effective tax rate was 47.6 percent and 13.4 percent for the three months en
+    [EffectiveIncomeTaxRateContinuingOperations]
+      Gold: ['47.6', '13.4']
+      Pred: ['47.6', '13.4']
+
+  Text: We operate through two business segments : our Structured Loan Origination and I
+    [NumberOfOperatingSegments]
+      Gold: ['two']
+      Pred: ['two']
+  Done. Skipped 16 long sequences.        
+
+Label                                                    Base F1    FT F1    Delta
+----------------------------------------------------------------------------------
+AccrualForEnvironmentalLossContingencies                   0.750    1.000   +0.250 ↑
+AcquiredFiniteLivedIntangibleAssetsWeightedAverageUsefulLife    0.000    1.000   +1.000 ↑
+AllocatedShareBasedCompensationExpense                     0.927    0.950   +0.023
+AmortizationOfFinancingCosts                               0.750    0.824   +0.074 ↑
+AmortizationOfIntangibleAssets                             0.973    1.000   +0.027
+AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount    0.533    0.917   +0.384 ↑
+AssetImpairmentCharges                                     0.800    1.000   +0.200 ↑
+BusinessAcquisitionEquityInterestsIssuedOrIssuableNumberOfSharesIssued    0.800    1.000   +0.200 ↑
+BusinessAcquisitionPercentageOfVotingInterestsAcquired     1.000    1.000   +0.000
+BusinessCombinationAcquisitionRelatedCosts                 0.909    1.000   +0.091 ↑
+BusinessCombinationConsiderationTransferred1               0.250    1.000   +0.750 ↑
+BusinessCombinationContingentConsiderationLiability        0.462    0.960   +0.498 ↑
+BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedIntangibleAssetsOtherThanGoodwill    0.000    0.857   +0.857 ↑
+BusinessCombinationRecognizedIdentifiableAssetsAcquiredAndLiabilitiesAssumedIntangibles    0.000    1.000   +1.000 ↑
+CapitalizedContractCostAmortization                        0.800    1.000   +0.200 ↑
+CashAndCashEquivalentsFairValueDisclosure                  0.963    1.000   +0.037
+ClassOfWarrantOrRightExercisePriceOfWarrantsOrRights1      0.000    1.000   +1.000 ↑
+CommonStockDividendsPerShareDeclared                       0.828    1.000   +0.172 ↑
+CommonStockParOrStatedValuePerShare                        0.909    1.000   +0.091 ↑
+CommonStockSharesAuthorized                                0.750    0.857   +0.107 ↑
+CommonStockSharesOutstanding                               1.000    1.000   +0.000
+ConcentrationRiskPercentage1                               0.643    1.000   +0.357 ↑
+ContractWithCustomerLiability                              0.727    1.000   +0.273 ↑
+ContractWithCustomerLiabilityRevenueRecognized             0.261    0.933   +0.672 ↑
+CumulativeEffectOfNewAccountingPrincipleInPeriodOfAdoption    0.750    1.000   +0.250 ↑
+DebtInstrumentBasisSpreadOnVariableRate1                   0.022    0.891   +0.869 ↑
+DebtInstrumentCarryingAmount                               0.902    0.980   +0.078 ↑
+DebtInstrumentConvertibleConversionPrice1                  0.300    1.000   +0.700 ↑
+DebtInstrumentFaceAmount                                   0.420    0.835   +0.415 ↑
+DebtInstrumentFairValue                                    0.000    0.800   +0.800 ↑
+DebtInstrumentInterestRateEffectivePercentage              0.538    1.000   +0.462 ↑
+DebtInstrumentInterestRateStatedPercentage                 0.883    0.971   +0.088 ↑
+DebtInstrumentMaturityDate                                 0.929    0.963   +0.034
+DebtInstrumentRedemptionPricePercentage                    0.069    1.000   +0.931 ↑
+DebtInstrumentTerm                                         0.667    0.957   +0.290 ↑
+DebtInstrumentUnamortizedDiscount                          0.000    0.923   +0.923 ↑
+DebtWeightedAverageInterestRate                            1.000    1.000   +0.000
+DeferredFinanceCostsGross                                  0.750    0.857   +0.107 ↑
+DeferredFinanceCostsNet                                    1.000    1.000   +0.000
+DefinedBenefitPlanContributionsByEmployer                  0.111    1.000   +0.889 ↑
+Depreciation                                               0.900    1.000   +0.100 ↑
+DerivativeFixedInterestRate                                0.923    0.857   -0.066 ↓
+DerivativeNotionalAmount                                   0.909    1.000   +0.091 ↑
+DisposalGroupIncludingDiscontinuedOperationConsideration    0.000    1.000   +1.000 ↑
+EffectiveIncomeTaxRateContinuingOperations                 0.000    0.960   +0.960 ↑
+EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate    0.857    1.000   +0.143 ↑
+EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognized    0.667    0.966   +0.299 ↑
+EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognizedPeriodForRecognition1    0.429    0.976   +0.547 ↑
+EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognizedShareBasedAwardsOtherThanOptions    0.250    0.727   +0.477 ↑
+EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense    0.000    1.000   +1.000 ↑
+EquityMethodInvestmentOwnershipPercentage                  0.583    1.000   +0.417 ↑
+EquityMethodInvestments                                    0.222    1.000   +0.778 ↑
+GainsLossesOnExtinguishmentOfDebt                          0.875    0.857   -0.018
+Goodwill                                                   0.929    1.000   +0.071 ↑
+GoodwillImpairmentLoss                                     0.500    1.000   +0.500 ↑
+GuaranteeObligationsMaximumExposure                        0.720    0.947   +0.227 ↑
+IncomeLossFromEquityMethodInvestments                      1.000    1.000   +0.000
+IncomeTaxExpenseBenefit                                    0.815    1.000   +0.185 ↑
+InterestExpense                                            0.769    0.833   +0.064 ↑
+InterestExpenseDebt                                        0.545    1.000   +0.455 ↑
+LeaseAndRentalExpense                                      0.667    1.000   +0.333 ↑
+LesseeOperatingLeaseRenewalTerm                            0.800    0.783   -0.017
+LesseeOperatingLeaseTermOfContract                         0.400    0.800   +0.400 ↑
+LettersOfCreditOutstandingAmount                           0.609    1.000   +0.391 ↑
+LineOfCredit                                               0.000    0.895   +0.895 ↑
+LineOfCreditFacilityCommitmentFeePercentage                1.000    1.000   +0.000
+LineOfCreditFacilityCurrentBorrowingCapacity               0.737    1.000   +0.263 ↑
+LineOfCreditFacilityInterestRateAtPeriodEnd                0.182    0.909   +0.727 ↑
+LineOfCreditFacilityMaximumBorrowingCapacity               0.568    0.933   +0.365 ↑
+LineOfCreditFacilityRemainingBorrowingCapacity             1.000    1.000   +0.000
+LineOfCreditFacilityUnusedCapacityCommitmentFeePercentage    0.828    1.000   +0.172 ↑
+LongTermDebt                                               1.000    1.000   +0.000
+LongTermDebtFairValue                                      0.897    1.000   +0.103 ↑
+LossContingencyAccrualAtCarryingValue                      0.927    1.000   +0.073 ↑
+LossContingencyDamagesSoughtValue                          1.000    1.000   +0.000
+LossContingencyEstimateOfPossibleLoss                      0.714    1.000   +0.286 ↑
+LossContingencyPendingClaimsNumber                         1.000    1.000   +0.000
+MinorityInterestOwnershipPercentageByNoncontrollingOwners    0.952    0.952   +0.000
+MinorityInterestOwnershipPercentageByParent                0.870    0.952   +0.082 ↑
+NumberOfOperatingSegments                                  0.800    1.000   +0.200 ↑
+NumberOfRealEstateProperties                               0.857    0.923   +0.066 ↑
+NumberOfReportableSegments                                 0.957    0.979   +0.022
+OperatingLeaseExpense                                      1.000    1.000   +0.000
+OperatingLeaseLiability                                    0.900    1.000   +0.100 ↑
+OperatingLeasePayments                                     1.000    1.000   +0.000
+OperatingLeaseRightOfUseAsset                              0.609    1.000   +0.391 ↑
+OperatingLeaseWeightedAverageDiscountRatePercent           1.000    1.000   +0.000
+OperatingLeaseWeightedAverageRemainingLeaseTerm1           0.933    1.000   +0.067 ↑
+OperatingLossCarryforwards                                 1.000    1.000   +0.000
+PaymentsToAcquireBusinessesGross                           0.800    0.818   +0.018
+PaymentsToAcquireBusinessesNetOfCashAcquired               0.000    1.000   +1.000 ↑
+PreferredStockDividendRatePercentage                       1.000    1.000   +0.000
+PreferredStockSharesAuthorized                             1.000    1.000   +0.000
+ProceedsFromIssuanceOfCommonStock                          1.000    1.000   +0.000
+PropertyPlantAndEquipmentUsefulLife                        0.000    0.800   +0.800 ↑
+PublicUtilitiesRequestedRateIncreaseDecreaseAmount         0.000    0.857   +0.857 ↑
+RelatedPartyTransactionAmountsOfTransaction                0.323    0.727   +0.404 ↑
+RelatedPartyTransactionExpensesFromTransactionsWithRelatedParty    0.000    1.000   +1.000 ↑
+RepaymentsOfDebt                                           0.333    0.667   +0.334 ↑
+RestructuringAndRelatedCostExpectedCost1                   0.667    1.000   +0.333 ↑
+RestructuringCharges                                       0.800    1.000   +0.200 ↑
+RevenueFromContractWithCustomerExcludingAssessedTax        0.800    1.000   +0.200 ↑
+RevenueFromContractWithCustomerIncludingAssessedTax        1.000    1.000   +0.000
+RevenueFromRelatedParties                                  0.588    0.963   +0.375 ↑
+RevenueRemainingPerformanceObligation                      0.750    1.000   +0.250 ↑
+Revenues                                                   0.750    1.000   +0.250 ↑
+SaleOfStockNumberOfSharesIssuedInTransaction               1.000    1.000   +0.000
+SaleOfStockPricePerShare                                   1.000    1.000   +0.000
+ShareBasedCompensation                                     1.000    1.000   +0.000
+ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardVestingPeriod1    0.786    0.867   +0.081 ↑
+ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriod    0.261    0.880   +0.619 ↑
+ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValue    0.000    1.000   +1.000 ↑
+ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedNumber    0.857    0.750   -0.107 ↓
+ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodTotalFairValue    0.400    1.000   +0.600 ↑
+ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAuthorized    0.875    0.941   +0.066 ↑
+ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant    0.800    1.000   +0.200 ↑
+ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisesInPeriodTotalIntrinsicValue    0.750    1.000   +0.250 ↑
+ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodGross    0.333    0.750   +0.417 ↑
+ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageGrantDateFairValue    0.000    0.667   +0.667 ↑
+SharePrice                                                 0.750    0.526   -0.224 ↓
+SharebasedCompensationArrangementBySharebasedPaymentAwardAwardVestingRightsPercentage    1.000    1.000   +0.000
+SharebasedCompensationArrangementBySharebasedPaymentAwardExpirationPeriod    0.667    1.000   +0.333 ↑
+StockIssuedDuringPeriodSharesNewIssues                     1.000    1.000   +0.000
+StockRepurchaseProgramAuthorizedAmount1                    0.875    0.966   +0.091 ↑
+StockRepurchaseProgramRemainingAuthorizedRepurchaseAmount1    1.000    1.000   +0.000
+StockRepurchasedAndRetiredDuringPeriodShares               1.000    1.000   +0.000
+StockRepurchasedDuringPeriodShares                         1.000    1.000   +0.000
+TreasuryStockAcquiredAverageCostPerShare                   1.000    1.000   +0.000
+TreasuryStockSharesAcquired                                1.000    1.000   +0.000
+TreasuryStockValueAcquiredCostMethod                       0.500    1.000   +0.500 ↑
+UnrecognizedTaxBenefits                                    1.000    1.000   +0.000
+UnrecognizedTaxBenefitsThatWouldImpactEffectiveTaxRate     1.000    1.000   +0.000
+----------------------------------------------------------------------------------
+MACRO F1                                                   0.668    0.954   +0.286
+==================================================================================
+
+Labels improved  (delta > +0.05): 90
+Labels degraded  (delta < -0.05): 3
+Labels unchanged               :  39
+
+Note: Partial span matching used — '$29.9 billion' correctly matches gold '29.9'.
+Both models evaluated on identical tokenized text and gold spans from FiNER-139 test.jsonl.

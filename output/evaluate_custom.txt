@@ -1,0 +1,161 @@
+OUTPUT for evaluate_custom.py
+================================================================================
+                          HAND-WRITTEN TEST EVALUATION                          
+================================================================================
+
+Test 1: Tesla reported total revenues of $24.3 billion for the third quarter of 202...
+  Labels tested: ['Revenues']
+  [Revenues]
+    Expected:   ['24.3']
+    Base   ✓: ['$24.3 billion']
+    FT     ✓: ['24.3']
+
+Test 2: Amazon's net income fell to $2.9 billion, down from $9.9 billion in the pri...
+  Labels tested: ['NetIncomeLoss']
+  [NetIncomeLoss]
+    Expected:   ['2.9', '9.9']
+    Base   ✓: ['$2.9 billion', '$9.9 billion']
+    FT     ✗: ['2.9']
+
+Test 3: The company recorded research and development expenses of $4.1 billion duri...
+  Labels tested: ['ResearchAndDevelopmentExpense']
+  [ResearchAndDevelopmentExpense]
+    Expected:   ['4.1']
+    Base   ✓: ['$4.1 billion']
+    FT     ✓: ['4.1']
+
+Test 4: Google's operating income increased to $21.3 billion compared to $17.1 bill...
+  Labels tested: ['OperatingIncomeLoss']
+  [OperatingIncomeLoss]
+    Expected:   ['17.1', '21.3']
+    Base   ✓: ['$17.1 billion', '$21.3 billion']
+    FT     ✓: ['17.1', '21.3']
+
+Test 5: Total assets on the balance sheet were $512.0 billion as of December 31 202...
+  Labels tested: ['Assets']
+  [Assets]
+    Expected:   ['512.0']
+    Base   ✗: ['$512.0 billion', 'Total assets', 'balance sheet']
+    FT     ✓: ['512.0']
+
+Test 6: The firm issued long term debt of $8.5 billion to fund its acquisition acti...
+  Labels tested: ['LongTermDebt']
+  [LongTermDebt]
+    Expected:   ['8.5']
+    Base   ✓: ['$8.5 billion']
+    FT     ✓: ['8.5']
+
+Test 7: Earnings per share for the quarter was $2.18 basic and $2.15 diluted....
+  Labels tested: ['EarningsPerShareBasic', 'EarningsPerShareDiluted']
+  [EarningsPerShareBasic]
+    Expected:   ['2.18']
+    Base   ✓: ['$2.18']
+    FT     ✓: ['2.18']
+  [EarningsPerShareDiluted]
+    Expected:   ['2.15']
+    Base   ✓: ['$2.15']
+    FT     ✓: ['2.15']
+
+Test 8: Cost of goods sold was $31.2 billion representing 62 percent of total net s...
+  Labels tested: ['CostOfGoodsSold']
+  [CostOfGoodsSold]
+    Expected:   ['31.2']
+    Base   ✓: ['$31.2 billion']
+    FT     ✓: ['31.2']
+
+Test 9: The company paid dividends of $0.92 per share totalling $3.8 billion for th...
+  Labels tested: ['Dividends']
+  [Dividends]
+    Expected:   ['0.92', '3.8']
+    Base   ✗: ['$0.92']
+    FT     ✗: ['0.92']
+
+Test 10: Cash and cash equivalents at end of period were $29.9 billion up from $21.0...
+  Labels tested: ['CashAndCashEquivalentsAtCarryingValue']
+  [CashAndCashEquivalentsAtCarryingValue]
+    Expected:   ['21.0', '29.9']
+    Base   ✓: ['$21.0 billion', '$29.9 billion']
+    FT     ✓: ['21.0', '29.9']
+
+Test 11: Microsoft announced a net income of $24.7 billion for the fiscal quarter en...
+  Labels tested: ['NetIncome']
+  [NetIncome]
+    Expected:   ['24.7']
+    Base   ✓: ['$24.7 billion']
+    FT     ✓: ['24.7']
+
+Test 12: Diluted earnings per share for the fourth quarter was $3.15, compared to $2...
+  Labels tested: ['EarningsPerShare']
+  [EarningsPerShare]
+    Expected:   ['3.15']
+    Base   ✗: ['$2.75', '$3.15']
+    FT     ✗: ['2.75', '3.15']
+
+Test 13: The company recorded total operating expenses of $12.8 billion, a 5% increa...
+  Labels tested: ['OperatingExpenses']
+  [OperatingExpenses]
+    Expected:   ['12.8']
+    Base   ✓: ['$12.8 billion']
+    FT     ✓: ['12.8']
+
+Test 14: As of the end of the fiscal year, total assets were valued at $450.2 billio...
+  Labels tested: ['TotalAssets']
+  [TotalAssets]
+    Expected:   ['450.2']
+    Base   ✓: ['$450.2 billion']
+    FT     ✓: ['450.2']
+
+Test 15: Cash and cash equivalents stood at $18.9 billion on the balance sheet as of...
+  Labels tested: ['CashAndCashEquivalents']
+  [CashAndCashEquivalents]
+    Expected:   ['18.9']
+    Base   ✓: ['$18.9 billion']
+    FT     ✓: ['18.9']
+
+Test 16: The firm reported a gross profit of $8.4 billion on net sales of $22.1 bill...
+  Labels tested: ['GrossProfit', 'Revenues']
+  [GrossProfit]
+    Expected:   ['8.4']
+    Base   ✓: ['$8.4 billion']
+    FT     ✓: ['8.4']
+  [Revenues]
+    Expected:   ['22.1']
+    Base   ✓: ['$22.1 billion']
+    FT     ✓: ['22.1']
+
+Test 17: Long-term debt was reduced to $15.6 billion, following the repayment of sen...
+  Labels tested: ['LongTermDebt']
+  [LongTermDebt]
+    Expected:   ['15.6']
+    Base   ✓: ['$15.6 billion']
+    FT     ✓: ['15.6']
+
+Test 18: Research and development costs rose to $4.2 billion due to investments in A...
+  Labels tested: ['ResearchAndDevelopmentExpenses']
+  [ResearchAndDevelopmentExpenses]
+    Expected:   ['4.2']
+    Base   ✓: ['$4.2 billion']
+    FT     ✓: ['4.2']
+
+Test 19: The company's effective tax rate for the period was 21%, resulting in a tax...
+  Labels tested: ['IncomeTaxProvision']
+  [IncomeTaxProvision]
+    Expected:   ['1.2']
+    Base   ✓: ['$1.2 billion']
+    FT     ✓: ['1.2']
+
+Test 20: Total shareholders' equity increased to $112.5 billion, reflecting strong r...
+  Labels tested: ['TotalShareholdersEquity']
+  [TotalShareholdersEquity]
+    Expected:   ['112.5']
+    Base   ✓: ['$112.5 billion']
+    FT     ✓: ['112.5']
+
+================================================================================
+                                    SUMMARY                                     
+================================================================================
+Metric                                 Base   Fine-tuned      Delta
+Precision                             0.893        0.960     +0.067
+Recall                                0.962        0.923     -0.038
+F1                                    0.926        0.941     +0.015
+================================================================================
